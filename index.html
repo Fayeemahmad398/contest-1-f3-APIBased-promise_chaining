@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3 promises</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="btn">
+        <button id="fetchBtn" onclick="handlePromises()">
+          Fetch Data by promise chaining
+        </button>
+      </div>
+      <h1 style="text-align: center; margin: 15px 0px;" id="allpost">
+        All Posts:Promise resolved at:
+      </h1>
+
+      <div class="posts"></div>
+      <h1 style="text-align: center; margin: 15px 0px;" id="allproducts">
+        All Products:Promise resolved at:
+      </h1>
+
+      <div class="allProducts"></div>
+      <h1 style="text-align: center; margin: 15px 0px;" id="alltodo's">
+        All TO do's:Promise resolved at:
+      </h1>
+      <div class="todos"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
